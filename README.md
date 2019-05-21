@@ -9,6 +9,14 @@ This project was built using:
 
 ## Attaching the library to your project
 
-You do not need to provide a thymeleaf version in your project.
+Since `1.0.1` you do not need to provide a thymeleaf version in your project.
+
+```
+<dependency>
+  <groupId>br.com.faroltech.vraptor</groupId>
+  <artifactId>vraptor-thymeleaf</artifactId>
+  <version>1.0.1</version>
+</dependency>
+```
 
 Just put your thymeleaf templates in `WEB-INF/templates` and you are good to go!
