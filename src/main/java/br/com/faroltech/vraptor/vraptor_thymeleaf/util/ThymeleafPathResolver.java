@@ -11,9 +11,13 @@ import br.com.caelum.vraptor.view.DefaultPathResolver;
 @Specializes
 public class ThymeleafPathResolver extends DefaultPathResolver {
 
+	private static final String ENCODING = "UTF-8";
+	private static final Long CACHE_TIME = 3600000L;
+
 	/**
 	 * @deprecated CDI eyes only
 	 */
+	@Deprecated
 	protected ThymeleafPathResolver() {
 		this(null);
 	}
@@ -38,11 +42,11 @@ public class ThymeleafPathResolver extends DefaultPathResolver {
 	}
 
 	protected Long getCache() {
-		return 3600000L;
+		return CACHE_TIME;
 	}
 
 	protected String getCharacterEncoding() {
-		return "UTF-8";
+		return ENCODING;
 	}
 
 }
