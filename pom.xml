@@ -1,14 +1,43 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.faroltech.vraptor</groupId>
-  <artifactId>vraptor-thymeleaf</artifactId>
-  <version>1.0.1</version>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.faroltech.vraptor</groupId>
+	<artifactId>vraptor-thymeleaf</artifactId>
+	<version>1.0.1</version>
+
+	<licenses>
+		<license>
+			<name>Apache License 2.0</name>
+			<url>http://apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>https://github.com/mpbalmeida/vraptor-thymeleaf</url>
+		<connection>scm:git:git://github.com/mpbalmeida/vraptor-thymeleaf</connection>
+		<developerConnection>scm:git:git@github.com:mpbalmeida/vraptor-thymeleaf.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>Almeida</id>
+			<name>Marcos Almeida</name>
+			<email>marcos.almeida@faroltech.com.br</email>
+			<organization>Faroltech</organization>
+			<organizationUrl>http://www.faroltech.com.br</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+	</developers>
   
-  <name>vraptor-thymeleaf</name>
-  <description>VRaptor plugin with thymeleaf view</description>
-  <url>https://github.com/mpbalmeida/vraptor-thymeleaf</url>
+	<name>vraptor-thymeleaf</name>
+	<description>VRaptor plugin with thymeleaf view</description>
+	<url>https://github.com/mpbalmeida/vraptor-thymeleaf</url>
   
-  <distributionManagement>
+	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -19,7 +48,7 @@
 		</repository>
 	</distributionManagement>
   
-  <dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>br.com.caelum</groupId>
 			<artifactId>vraptor</artifactId>
