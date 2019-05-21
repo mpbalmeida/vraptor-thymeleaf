@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.faroltech.vraptor</groupId>
   <artifactId>vraptor-thymeleaf</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   
   <name>vraptor-thymeleaf</name>
   <description>VRaptor plugin with thymeleaf view</description>
@@ -23,15 +23,14 @@
 		<dependency>
 			<groupId>br.com.caelum</groupId>
 			<artifactId>vraptor</artifactId>
-			<version>4.2.0-RC3</version>
+			<version>4.2.2</version>
 			<scope>provided</scope>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.thymeleaf</groupId>
 			<artifactId>thymeleaf</artifactId>
-			<version>3.0.2.RELEASE</version>
-			<scope>provided</scope>
+			<version>3.0.11.RELEASE</version>
 		</dependency>
 		
 		<dependency>
