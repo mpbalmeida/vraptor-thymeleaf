@@ -29,6 +29,7 @@ public class ThymeleafPageResult extends DefaultPageResult {
 	/** 
 	 * @deprecated CDI eyes only
 	 */
+	@Deprecated
 	protected ThymeleafPageResult() {
 		super(null, null, null, null, null);
 	}

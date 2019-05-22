@@ -11,11 +11,11 @@ This project was built using:
 
 Since `1.0.1` you do not need to provide a thymeleaf version in your project.
 
-```
+```xml
 <dependency>
   <groupId>br.com.faroltech.vraptor</groupId>
   <artifactId>vraptor-thymeleaf</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 
