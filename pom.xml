@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.faroltech.vraptor</groupId>
 	<artifactId>vraptor-thymeleaf</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 
 	<licenses>
 		<license>
@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.thymeleaf</groupId>
 			<artifactId>thymeleaf</artifactId>
-			<version>3.0.11.RELEASE</version>
+			<version>3.0.12.RELEASE</version>
 		</dependency>
 		
 		<dependency>
